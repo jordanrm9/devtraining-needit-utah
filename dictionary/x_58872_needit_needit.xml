@@ -1,26 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+    <element audit="true" db_object_id="3dcae0aec37292102bdeb91ed4013100" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Legal" sequence="0" value="legal"/>
-                <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
-                <element inactive_on_update="false" label="Human Resources" sequence="2" value="hr"/>
-            </choice>
-        </element>
+        <element label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="hr1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
-                <element inactive_on_update="false" label="Legal 1" sequence="0" value="legal1"/>
-                <element inactive_on_update="false" label="Legal 2" sequence="1" value="legal2"/>
-                <element inactive_on_update="false" label="Facilities 1" sequence="2" value="facilities1"/>
+                <element inactive_on_update="false" label="Human Resources 6" sequence="0" value="Human Resources 6"/>
+                <element inactive_on_update="false" label="Facilities 11" sequence="0" value="Facilities 11"/>
+                <element inactive_on_update="false" label="Legal 5" sequence="0" value="Legal 5"/>
+                <element inactive_on_update="false" label="Facilities 16" sequence="0" value="Facilities 16"/>
+                <element inactive_on_update="false" label="Legal 9" sequence="0" value="Legal 9"/>
+                <element inactive_on_update="false" label="Legal 10" sequence="0" value="Legal 10"/>
+                <element inactive_on_update="false" label="Facilities 14" sequence="0" value="Facilities 14"/>
+                <element inactive_on_update="false" label="Legal 12" sequence="0" value="Legal 12"/>
+                <element inactive_on_update="false" label="Legal 11" sequence="0" value="Legal 11"/>
                 <element inactive_on_update="false" label="Facilities 2" sequence="3" value="facilities2"/>
-                <element inactive_on_update="false" label="Human Resources 1" sequence="4" value="hr1"/>
-                <element inactive_on_update="false" label="Human Resources 2" sequence="5" value="hr2"/>
+                <element inactive_on_update="false" label="Legal 3" sequence="0" value="Legal 3"/>
+                <element inactive_on_update="false" label="Legal 4" sequence="0" value="Legal 4"/>
+                <element inactive_on_update="false" label="Facilities 12" sequence="0" value="Facilities 12"/>
+                <element inactive_on_update="false" label="Human Resources 5" sequence="0" value="Human Resources 5"/>
+                <element inactive_on_update="false" label="Human Resources 9" sequence="0" value="Human Resources 9"/>
+                <element inactive_on_update="false" label="Human Resources 10" sequence="0" value="Human Resources 10"/>
+                <element inactive_on_update="false" label="Legal 8" sequence="0" value="Legal 8"/>
+                <element inactive_on_update="false" label="Human Resources 11" sequence="0" value="Human Resources 11"/>
                 <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
+                <element inactive_on_update="false" label="Human Resources 12" sequence="0" value="Human Resources 12"/>
+                <element inactive_on_update="false" label="Facilities 1" sequence="2" value="facilities1"/>
+                <element inactive_on_update="false" label="Human Resources 4" sequence="0" value="Human Resources 4"/>
+                <element inactive_on_update="false" label="Human Resources 3" sequence="0" value="Human Resources 3"/>
+                <element inactive_on_update="false" label="Facilities 9" sequence="0" value="Facilities 9"/>
+                <element inactive_on_update="false" label="Facilities 7" sequence="0" value="Facilities 7"/>
+                <element inactive_on_update="false" label="Legal 7" sequence="0" value="Legal 7"/>
+                <element inactive_on_update="false" label="Facilities 19" sequence="0" value="Facilities 19"/>
+                <element inactive_on_update="false" label="Human Resources 8" sequence="0" value="Human Resources 8"/>
+                <element inactive_on_update="false" label="Facilities 17" sequence="0" value="Facilities 17"/>
+                <element inactive_on_update="false" label="Facilities 21" sequence="0" value="Facilities 21"/>
+                <element inactive_on_update="false" label="Facilities 23" sequence="0" value="Facilities 23"/>
+                <element inactive_on_update="false" label="Human Resources 2" sequence="5" value="hr2"/>
+                <element inactive_on_update="false" label="Legal 2" sequence="1" value="legal2"/>
+                <element inactive_on_update="false" label="Facilities 3" sequence="0" value="Facilities 3"/>
+                <element inactive_on_update="false" label="Facilities 5" sequence="0" value="Facilities 5"/>
+                <element inactive_on_update="false" label="Legal 6" sequence="0" value="Legal 6"/>
+                <element inactive_on_update="false" label="Facilities 8" sequence="0" value="Facilities 8"/>
+                <element inactive_on_update="false" label="Human Resources 7" sequence="0" value="Human Resources 7"/>
+                <element inactive_on_update="false" label="Facilities 10" sequence="0" value="Facilities 10"/>
+                <element inactive_on_update="false" label="Facilities 13" sequence="0" value="Facilities 13"/>
+                <element inactive_on_update="false" label="Facilities 15" sequence="0" value="Facilities 15"/>
+                <element inactive_on_update="false" label="Facilities 18" sequence="0" value="Facilities 18"/>
+                <element inactive_on_update="false" label="Facilities 22" sequence="0" value="Facilities 22"/>
+                <element inactive_on_update="false" label="Legal 1" sequence="0" value="legal1"/>
+                <element inactive_on_update="false" label="Facilities 24" sequence="0" value="Facilities 24"/>
+                <element inactive_on_update="false" label="Human Resources 1" sequence="4" value="hr1"/>
+                <element inactive_on_update="false" label="Facilities 20" sequence="0" value="Facilities 20"/>
+                <element inactive_on_update="false" label="Facilities 4" sequence="0" value="Facilities 4"/>
+                <element inactive_on_update="false" label="Facilities 6" sequence="0" value="Facilities 6"/>
             </choice>
         </element>
-        <element label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Human Resources" sequence="2" value="hr"/>
+                <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
+                <element inactive_on_update="false" label="Legal" sequence="0" value="legal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" max_length="40" name="u_requested_for_email" type="string"/>
     </element>
 </database>
